@@ -3,6 +3,7 @@ from datetime import datetime
 from sunburnt import SolrInterface
 from sunburnt import RawString
 from sunburnt.search import SolrSearch
+from dateutil import parser
 
 local = True
 
